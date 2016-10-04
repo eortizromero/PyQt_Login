@@ -1,0 +1,57 @@
+/* main.css estilos en pyqt4 */
+
+#principal{
+	background: #121314;
+}
+
+#button_login{
+	border: none;
+	border-radius: 20px;
+	background: #1ED760;
+	color: #D6D6D7;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+#button_login:hover{
+	background: #2AFF7F;
+	color: #FFF;
+}
+
+#line_username, 
+#line_password{
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid #1ED760;
+	color: #D6D6D7;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+#line_username:focus, 
+#line_password:focus{
+	border-bottom: 2px solid #D6D6D7;
+}
+
+#button_close{
+	background: transparent;
+	color: #D6D6D7;
+	font-size: 16px;
+	border: none;
+}
+
+#button_close:hover{
+	background: #E81123;
+	color: #FFF;
+}
+
+#frame_window{
+	background: #282828;
+}
+
+#title_frame{
+	font-size: 14px;
+	color: #D6D6D7;
+}
